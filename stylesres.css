@@ -1,8 +1,32 @@
 #skills{
     background-color: lightgray;
     border-radius: 5%;
+    box-shadow: 0 4px 8px 0 black;
+    transition: .3s;
+}
+
+#skills:hover, #edu-work:hover, #projects:hover{
+    box-shadow: 0 8px 16px 0 black;
 }
 
 #skills li{
     list-style: none;
 }
+
+#edu-work, #projects{
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 black;
+    transition: .3s;
+}
+
+#email:hover, #connect:hover, #project:hover, #phone:hover{
+    transform: translateY(5px);
+    transition: .3s;
+}
+
+#project1:hover, #project2:hover, #project3:hover, #project4:hover{
+    transform: translateY(5px);
+    transition: .3s;
+}
+
+
