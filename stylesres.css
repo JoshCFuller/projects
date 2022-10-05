@@ -1,0 +1,8 @@
+#skills{
+    background-color: lightgray;
+    border-radius: 5%;
+}
+
+#skills li{
+    list-style: none;
+}
